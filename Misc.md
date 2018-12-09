@@ -10,6 +10,18 @@
 
 
 
+# NodeJs
+
+<https://blog.risingstack.com/getting-node-js-testing-and-tdd-right-node-js-at-scale/>
+
+
+
+# C#
+
+<http://www.tutorialsteacher.com/linq/linq-lambda-expression>
+
+https://www.youtube.com/watch?v=JoqKIlGOcLw
+
 
 
 # Other stuff
