@@ -210,8 +210,6 @@ You should use `Configure­Await` when possible. Context-free code has better pe
 
 
 
-### Task completion  
-
 
 
 # Tim Corney 
@@ -288,3 +286,58 @@ Both async functions run parallel, but:
 ![1543796546965](.\img\1543796546965.png)
 
 ![1543796509371](.\img\1543796509371.png)
+
+
+
+
+
+# On .Net
+
+[Youtube video](https://www.youtube.com/watch?v=My2gAv5Vrkk&t=497s) - Brandon Minnick - async/await best practices
+
+## Async/Await 
+
+This is how compiled `async` and `await` code looks like:
+
+![](.\img\compiledAsyncAwait1.png)
+
+
+![](.\img\compiledAsyncAwait2.png)
+
+* This is basically a state-machine implemented by `IAsyncStatemachine`. 
+
+* notice the try-catch blocks, exception within this class will be re-thrown for the caller 
+
+
+## Refactoring
+
+
+### Fire and forget in the constructor
+
+problem:
+```c#
+Task.Run(async () => await ExecuteRefreshCommand());
+```
+solution:
+executing `RefreshCommand` instead
+
+
+
+### .Wait() in the RefreshCommand
+
+If we want to run the async code synchronously we should use the `.GetAwaiter.GetResult` formula instead because in the case the thrown exception will be unwrapped.
+
+
+
+### Performance boost by .ConfigureAwait()
+
+In the example the RefershCommand does nothing in the UI thread after invoking the Command. By calling `ConfigureAwait(false)` basically tells the sw to do not switch back to the caller thread after finishing the async task, keep continue. **This trick saves time/effort needed by the context switch.**
+
+
+
+### Returning a Task instead
+
+Returning  `Task` instead of awaiting it sometimes could boost the performance as well, but be careful. If you return the task then you should handle the exception at the point it is awaited. 
+
+**If your function call is in a try-catch or using block you have to await your function at that point**
+
