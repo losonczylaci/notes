@@ -1,7 +1,5 @@
 # misc
 
-\[TOC\]
-
 ## Tim Corey Videos
 
 ### WishList
@@ -35,4 +33,3 @@
 [Brandon Minnick - async/await best practices](https://www.youtube.com/watch?v=My2gAv5Vrkk)
 
 [Bash completion](https://github.com/mbrubeck/compleat) + [https://limpet.net/mbrubeck/2009/10/30/compleat.html](https://limpet.net/mbrubeck/2009/10/30/compleat.html)
-

@@ -4,8 +4,8 @@
 
 > Content
 >
-> * Shopping list functionality 
-> * a little styling 
+> * Shopping list functionality
+> * a little styling
 > * deploying application
 
 ## Menus
@@ -34,4 +34,3 @@ Shortcut could be created by specifying the `accelerator` attribute of the menu 
   ```
 
 * `ipcRenderer` very important to communicate between the app and the actual html view For a complete example of how to communicate between the the 'server' and the view check this video [youtube](https://youtu.be/kN1Czs0m1SU?t=1881)
-

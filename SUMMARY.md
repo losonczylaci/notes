@@ -13,4 +13,3 @@
 * [electron](electron/README.md)
   * [Electron best practices](electron/electron-best-practices.md)
 * [misc](misc.md)
-

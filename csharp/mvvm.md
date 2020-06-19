@@ -1,7 +1,5 @@
 # mvvm
 
-\[TOC\]
-
 ## Other resources
 
 [Josh Smith's blog](https://joshsmithonwpf.wordpress.com/about/) - suggested by Steven Cleary
@@ -20,4 +18,3 @@
   e.g. `ShellViewModel` and `ShellView`
 
 * ViewModel is derived from `Screen` class, as Tim said there are plenty of other base classe for this purpose within Caliburn, check them out [here](https://caliburnmicro.com/documentation/configuration).
-

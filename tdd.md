@@ -16,4 +16,3 @@ Fake - simplified class with shortcuts Stub - canned answers to calls \(used for
 * SUT or OUT - system/object under test
 * state verification
 * behaviour verification
-

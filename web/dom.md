@@ -1,8 +1,4 @@
-# dom
-
-\[TOC\]
-
-## DOM - Document Object Model
+# DOM - Document Object Model
 
 [Youtube](https://www.youtube.com/watch?v=0ik6X4DJKCc) - DOM crash course
 
@@ -10,7 +6,7 @@
 * HTML structor
 * Examine the Document Object
 
-### MISC
+## MISC
 
 * Within the html file the script can be outsourced to a remote file and could be included
 
@@ -20,9 +16,9 @@
 
 * `.innerText` vs `.textContent` the last one disregards the style and  
 
-  there is alos `.innerHtml` as well 
+  there is alos `.innerHtml` as well
 
-### Query selector
+## Query selector
 
 ```javascript
 document.querySelector()
@@ -32,16 +28,15 @@ document.querySelector()
 * can select based on any prWEBoperty \(tagname, id, class...\)
 * meant to replace jQuery
 
-### Query selector all
+## Query selector all
 
-* selecting odd items in a list 
+* selecting odd items in a list
 
   ```javascript
   var odd = document.querySelectorAll('li:nth-child(odd)')
   ```
 
-### Events
+## Events
 
 * subscribing to an event
 * cancelling default event of submit
-
