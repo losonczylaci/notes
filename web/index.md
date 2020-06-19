@@ -1,4 +1,4 @@
-# Useful resources
+# index
 
 ## Traversy Media
 
