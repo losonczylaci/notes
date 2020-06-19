@@ -1,50 +1,38 @@
-[TOC]
+# misc
 
-# Tim Corey Videos
+\[TOC\]
 
-## WishList
+## Tim Corey Videos
 
-[Best Practices](https://www.youtube.com/watch?v=-9b8NRqjUFM)  - basically clean code
-[log4net Tutorial](https://www.youtube.com/watch?v=2lAdQ_QwNww)
-[LINQ](https://www.youtube.com/watch?v=yClSNQdVD7g)
+### WishList
+
+[Best Practices](https://www.youtube.com/watch?v=-9b8NRqjUFM) - basically clean code [log4net Tutorial](https://www.youtube.com/watch?v=2lAdQ_QwNww) [LINQ](https://www.youtube.com/watch?v=yClSNQdVD7g)
 
 [xUnitTest](https://www.youtube.com/watch?v=ub3P8c87cwk)
 
-
-
 [Conference - async/await](https://www.youtube.com/watch?v=Al8LrBKpZEU)
 
+### Jeremy Bytes
 
-##  Jeremy Bytes
-[TDD](https://www.youtube.com/watch?v=l4xhTq4qmC0)
-[Task and Await Part1](https://www.youtube.com/watch?v=0qiB3oW_nd8)
-[Task and Await Part2](https://www.youtube.com/watch?v=2bFp7Ob-fC8	)
+[TDD](https://www.youtube.com/watch?v=l4xhTq4qmC0) [Task and Await Part1](https://www.youtube.com/watch?v=0qiB3oW_nd8) [Task and Await Part2](https://www.youtube.com/watch?v=2bFp7Ob-fC8%20)
 
-# NodeJs
+## NodeJs
 
-<https://blog.risingstack.com/getting-node-js-testing-and-tdd-right-node-js-at-scale/>
+[https://blog.risingstack.com/getting-node-js-testing-and-tdd-right-node-js-at-scale/](https://blog.risingstack.com/getting-node-js-testing-and-tdd-right-node-js-at-scale/)
 
+## C\#
 
+[http://www.tutorialsteacher.com/linq/linq-lambda-expression](http://www.tutorialsteacher.com/linq/linq-lambda-expression)
 
-# C#
+[https://www.youtube.com/watch?v=JoqKIlGOcLw](https://www.youtube.com/watch?v=JoqKIlGOcLw)
 
-<http://www.tutorialsteacher.com/linq/linq-lambda-expression>
+## Xamarin university
 
-https://www.youtube.com/watch?v=JoqKIlGOcLw
+\[website\][https://university.xamarin.com/classes\(](https://university.xamarin.com/classes%28)\)
 
-
-
-
-
-# Xamarin university
-
-[website]https://university.xamarin.com/classes()
-
-
-
-# Other stuff
+## Other stuff
 
 [Brandon Minnick - async/await best practices](https://www.youtube.com/watch?v=My2gAv5Vrkk)
 
-[Bash completion](https://github.com/mbrubeck/compleat)  + https://limpet.net/mbrubeck/2009/10/30/compleat.html
+[Bash completion](https://github.com/mbrubeck/compleat) + [https://limpet.net/mbrubeck/2009/10/30/compleat.html](https://limpet.net/mbrubeck/2009/10/30/compleat.html)
 
